@@ -79,6 +79,8 @@
 (autoload 'wl-other-frame "wl" "Wanderlust on new frame." t)
 (autoload 'wl-draft "wl-draft" "Write draft with Wanderlust." t)
 
+(require 'mime-w3m)
+
 ;; IMAP
 (setq elmo-imap4-default-server "imap.gmail.com")
 (setq elmo-imap4-default-user "sdrreynolds@gmail.com") 
